@@ -1,7 +1,7 @@
 ﻿using M2HW6;
 public class Program
 {
-    public void Main(string[] args)
+    public static void Main(string[] args)
     {
         PassengerCarFactory passengerCarFactory = new PassengerCarFactory();
         AutomaticTransmissionCarFactory automaticTransmissionCarFactory = new AutomaticTransmissionCarFactory();

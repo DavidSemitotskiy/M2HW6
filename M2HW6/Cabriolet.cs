@@ -28,6 +28,7 @@ namespace M2HW6
                 Console.WriteLine("По велению пассажира крыша автомобиля была закрыта!");
             }
 
+            ChangeGear();
             base.Move();
         }
 

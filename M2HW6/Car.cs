@@ -23,6 +23,7 @@ namespace M2HW6
 
         public virtual void Move()
         {
+            ChangeGear();
             Console.WriteLine("Я еду!");
         }
 

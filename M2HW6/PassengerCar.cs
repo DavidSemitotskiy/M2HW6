@@ -24,6 +24,7 @@ namespace M2HW6
 
         public override void Move()
         {
+            ChangeGear();
             Console.WriteLine("Я еду с среднестатистической скоростью!");
         }
 
