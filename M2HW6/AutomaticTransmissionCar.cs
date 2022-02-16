@@ -19,7 +19,7 @@ namespace M2HW6
         {
             ReadyToChangeGear = true;
             Random random = new Random();
-            Console.WriteLine($"Меняю передачу на {random.Next(3)}");
+            Console.WriteLine($"Меняю передачу на {(Gear)random.Next(3)}");
         }
 
         public override string GetDescription()
